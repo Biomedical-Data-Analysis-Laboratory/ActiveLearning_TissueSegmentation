@@ -23,12 +23,10 @@ https://arxiv.org/abs/2303.05225
 ### 4 - How to cite our work
 The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
 ```
-@inproceedings{fuster2022nested,
-  title={Nested multiple instance learning with attention mechanisms},
-  author={Fuster, Saul and Eftest{\o}l, Trygve and Engan, Kjersti},
-  booktitle={2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)},
-  pages={220--225},
-  year={2022},
-  organization={IEEE}
+@article{fuster2023active,
+  title={Active Learning Based Domain Adaptation for Tissue Segmentation of Histopathological Images},
+  author={Fuster, Saul and Khoraminia, Farbod and Eftest{\o}l, Trygve and Zuiverloon, Tahlita and Engan, Kjersti},
+  journal={arXiv preprint arXiv:2303.05225},
+  year={2023}
 }
 ```
