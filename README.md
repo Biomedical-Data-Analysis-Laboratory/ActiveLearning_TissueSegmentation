@@ -11,11 +11,13 @@ Accurate segmentation of tissue in histopathological images can be very benefici
 
 ### 2 - How to use
 
-**Tile Extraction**: Tiles, or image patches, are extracted from your dataset at three different magnification levels. These tiles are typically extracted from Whole Slide Images (WSIs) and can be stored as image files or, as you mentioned, in TFRecord files. TFRecord is a binary format commonly used with TensorFlow for efficient data storage and retrieval. The tfrecord_generator script is responsible for creating TFRecord files from the extracted tiles. TFRecord files are optimized for fast data loading during training and inference in TensorFlow.
+**Tile Extraction**: Tiles, or image patches, are extracted from your dataset at three different magnification levels. These tiles are typically extracted from Whole Slide Images (WSIs) and can be stored as image files or, as you mentioned, in TFRecord files. TFRecord is a binary format commonly used with TensorFlow for efficient data storage and retrieval. The `tfrecord_generator.py` script is responsible for creating TFRecord files from the extracted tiles. TFRecord files are optimized for fast data loading during training and inference in TensorFlow.
 
-**Training with Active Learning**: You use the active_learning_train script to train your active learning model. Active learning is a machine learning approach where the model selects which data points (or in this case, tiles) to learn from next. This is typically used when labeling data is expensive or time-consuming.
+**Training with Active Learning**: You use the `active_learning_train.py` script to train your active learning model. Active learning is a machine learning approach where the model selects which data points (or in this case, tiles) to learn from next. This is typically used when labeling data is expensive or time-consuming.
 
-**Inference with Active Learning**: After training, you can use the active_learning_inference script to make predictions or decisions based on the active learning model. This can include tasks like classification or selecting the most informative tiles for further annotation.
+**Inference with Active Learning**: After training, you can use the `active_learning_inference.py` script to make predictions or decisions based on the active learning model. This can include tasks like classification or selecting the most informative tiles for further annotation.
+
+**Dependencies:** Ensure that you have the required dependencies listed in the `requirements.txt` file.
 
 ### 3 - Link to paper
 https://arxiv.org/abs/2303.05225
