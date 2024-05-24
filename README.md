@@ -20,15 +20,17 @@ Accurate segmentation of tissue in histopathological images can be very benefici
 **Dependencies:** Ensure that you have the required dependencies listed in the `requirements.txt` file.
 
 ### 3 - Link to paper
-https://arxiv.org/abs/2303.05225
+https://ieeexplore.ieee.org/document/10290058
 
 ### 4 - How to cite our work
 The code is released free of charge as open-source software under the GPL-3.0 License. Please cite our paper if you use it in your research.
 ```
-@article{fuster2023active,
+@inproceedings{fuster2023active,
   title={Active Learning Based Domain Adaptation for Tissue Segmentation of Histopathological Images},
-  author={Fuster, Saul and Khoraminia, Farbod and Eftest{\o}l, Trygve and Zuiverloon, Tahlita and Engan, Kjersti},
-  journal={arXiv preprint arXiv:2303.05225},
-  year={2023}
+  author={Fuster, Saul and Khoraminia, Farbod and Eftest{\o}l, Trygve and Zuiverloon, Tahlita CM and Engan, Kjersti},
+  booktitle={2023 31st European Signal Processing Conference (EUSIPCO)},
+  pages={1045--1049},
+  year={2023},
+  organization={IEEE}
 }
 ```
